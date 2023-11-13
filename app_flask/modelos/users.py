@@ -1,4 +1,4 @@
-from mysqlconnection import connectToMySQL
+from app_flask.config.mysqlconnection import connectToMySQL
 #Modelo de la clase (usuario)
 class User: 
     def __init__(self, data):
